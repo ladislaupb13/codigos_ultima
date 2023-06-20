@@ -52,7 +52,7 @@ class ClienteESP:
         self.conexao = conexao
         self.cursor = conexao.cursor()
     def cadastro(self):
-        self.nome = input("Olá, Por favor, Digite seu nome: ")
+        self.nome = input("Olá, Por favor, Digite seu NOME: ")
         self.cpf = input("Digite o seu numero do CPF: ")
         self.idade = int(input("Digite a sua idade: "))
         self.telefone = int(input("Digite seu telefone: "))
